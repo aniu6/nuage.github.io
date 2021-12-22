@@ -1,8 +1,8 @@
 const path = require("path");
 
 module.exports = {
-  title: 'Top 的博客 ｜ Top Blog',
-  description: '个人博客',
+  title: 'Nuage QA ｜ Nuage QA',
+  description: 'Test',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -18,15 +18,15 @@ module.exports = {
 
   theme: 'melodydl',
   themeConfig: {
-    title: 'Top Blog',
+    title: 'Nuage QA',
 
     // aside personInfo
     personalInfo: {
-      name: 'melodydl',
+      name: 'Nuage QA',
       avatar: '/avatar-top.jpeg',
       headerBackgroundImg: '/avatar-bg.jpeg',
       description: 'In me the tiger sniffs the rose<br/>心有猛虎，细嗅蔷薇',
-      email: 'facecode@foxmail.com',
+      email: '',
       location: 'Shanghai, China',
       // organization: '',
     },
@@ -38,38 +38,22 @@ module.exports = {
     ],
     header: {
       home: {
-        title: 'Top Blog', 
-        subtitle: '好好生活，慢慢相遇', 
+        title: 'Nuage QA', 
+        subtitle: 'Live a good life and meet each other slowly', 
         headerImage: '/home-bg.jpeg'
       },
       tags: {
         title: 'Tags', 
-        subtitle: '遇见你花光了我所有的运气', 
+        subtitle: 'the most beautiful time', 
         headerImage: '/tags-bg.jpg'
       },
       postHeaderImg: '/post-bg.jpeg',
     },
     // footer sns
     sns: {
-      csdn: { 
-        account: 'csdn', 
-        link: 'https://blog.csdn.net/weixin_44002432', 
-      },
-      weibo: { 
-        account: 'weibo', 
-        link: 'https://weibo.com/u/5656925978', 
-      },
-      juejin: { 
-        account: 'juejin',
-        link: 'https://juejin.im/user/5ce784a0f265da1b8333673c'
-      },
-      zhihu: { 
-        account: 'zhihu',
-        link: 'https://www.zhihu.com/people/sheng-tang-de-xing-kong'
-      },
       github: { 
         account: 'github',
-        link: 'https://github.com/youdeliang'
+        link: 'https://github.com/aniu6'
       }
     },
 
@@ -91,7 +75,7 @@ module.exports = {
     },
 
     comments: {
-      owner: 'youdeliang',
+      owner: 'Nuage QA',
       repo: 'vuepress-theme-melodydl',
       clientId: 'dfba8ecad544784fec1f',
       clientSecret: '1358ac11bc8face24f598601991083e27372988d',
